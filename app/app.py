@@ -37,7 +37,7 @@ chatbot = gr.ChatInterface(
     fn=respond,
     chatbot=gr.Chatbot(elem_id="chatbot", height="auto", avatar_images=[icon_user_path, icon_bot_path]),
     title="",
-    textbox=gr.Textbox(placeholder="¡Hola!, ¿qué servicio está buscando?", container=False, scale=7),
+    textbox=gr.Textbox(placeholder="¡Hola!, ¿en que te puedo ayudar?", container=False, scale=7),
     clear_btn="Limpiar",
     retry_btn=None,
     undo_btn=None,

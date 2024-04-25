@@ -2,7 +2,7 @@
 name = "agentwiki"
 version = "0.1.0"
 description = ""
-authors = ["Pilar Madariaga <prng@gft.com>"]
+authors = ["Pilar Madariaga <pilar.madariaga@gft.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]

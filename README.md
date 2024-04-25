@@ -1,4 +1,5 @@
 # Claude3 Agent with a tool for searching on wikipedia
+![agent with a tool](https://github.com/pilarcode/rag-chatbot-conversational/blob/main/docs/ui.png)
 
 ##  Usage
 

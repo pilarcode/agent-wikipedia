@@ -1,7 +1,13 @@
 # Claude3 Agent with a tool for searching on wikipedia
 ![agent with a tool](https://github.com/pilarcode/rag-chatbot-conversational/blob/main/docs/ui.png)
 
-##  Usage
+
+##  Deployment
+* Build the whl by using poetry
+
+```bash
+	poetry build
+```
 
 * Backend : Fast API 
 
@@ -17,7 +23,7 @@
 	cd app && docker run -it -p 8510:8510 front
 ```
 
-## Cleanup
+* Docker Comands
 ```bash
 	docker images
 	docker rmi -f <image_id>
